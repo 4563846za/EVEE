@@ -882,6 +882,7 @@ async def game(ctx, *, text, user: discord.Member = None):
 
 
 
-#server_on()
+server_on()
 
-bot.run("MTI0MDc1Mjc1MzUwOTQwNDc0Mg.Gmap4P.pKfzw33PjCBe9sApxpvPy6mQevFlAusRfygKjM")
+
+bot.run(os.getenv("TOKEN"))
